@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LittleWallet</string>
+    <array name="wallet_filter_entries">
+        <item>All</item>
+        <item>Cryptos</item>
+        <item>Metals</item>
+        <item>Fiats</item>
+    </array>
+</resources>

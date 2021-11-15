@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.MainActivity">
+    <item android:id="@+id/all"
+        android:title="all"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/crypto"
+        android:title="Crypto"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/metals"
+        android:title="Metals"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/fiat"
+        android:title="Fiat"
+        app:showAsAction="ifRoom"/>
+</menu>
